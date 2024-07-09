@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&display=swap");
+
+.flex {
+  display: flex;
+}
+
+.jcenter {
+  justify-content: center;
+}
+.j-space-between {
+  justify-content: space-between;
+}
+.a-center {
+  align-items: center;
+}
+
+/* .border{
+    border: 2px solid rgb(238, 0, 0);
+    margin: 2px;
+} */
+
+.bg-black {
+  background-color: black;
+  color: white;
+}
+.bg-gray {
+  background-color: #121212;
+  color: white;
+}
+.bg-gray1 {
+  background-color: #1e1e1e;
+}
+.bg-gray2 {
+  background-color: #101010;
+}
+.bg-card {
+  background-color: #161616;
+}
+
+.invert {
+  filter: invert();
+}
+
+.b-radius {
+  border-radius: 7px;
+}
+.m-1 {
+  margin: 5px;
+}
+
+.p-1 {
+  padding: 20px;
+}
+.p-2 {
+  padding: 10px;
+}
+
+.f-5 {
+  font-weight: 500;
+}
+.f-4 {
+  font-weight: 400;
+}
+

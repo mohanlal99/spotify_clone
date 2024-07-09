@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Free My Music</title>
+    <link rel="shortcut icon" href="image/music.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/util.css" />
+    <link rel="stylesheet" href="css/scrollbar.css" />
+    <style></style>
+</head>
+
+<body>
+    <div class="container flex">
+        <!-- This is left box home other all item -->
+        <div class="left bg-black f-5 m-1">
+            <!-- first box -->
+            <div class="closeicon">
+                <img src="image/close.svg" class="invert cicon" alt="">
+            </div>
+            <div class="home b-radius bg-gray p-1 m-1">
+                <div class="logo">
+                    <img width="150px" class="invert b-radius" src="image/logo.jpg" alt="logo" />
+                </div>
+                <ul>
+                    <li><img class="invert" src="image/icons8-home.svg" alt="home" />Home</li>
+                    <li><img class="invert" src="image/icons8-search.svg" alt="" />Search</li>
+                </ul>
+            </div>
+            <!-- second box -->
+            <div class="library b-radius bg-gray p-1 m-1">
+                <div class="heading">
+                    <img class="invert" src="image/playlist.svg" alt="" />
+                    <div class="plus flex">
+                        <h2 class="f-4">Your Library</h2>
+                        <img class="invert" src="image/plus.svg" alt="" />
+                    </div>
+                </div>
+                <div class="songlist">
+                    <ul>
+
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/"><span>Legal</span></a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/safetyandprivacy/">
+                            <span>Safety & Privacy Center</span></a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/cookies-policy/"><span>Cookies</span></a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"><span>About Ads</span></a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/accessibility/"><span>Accessibility</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- this is right box and all item right side -->
+        <div class="right bg-gray1 b-radius">
+            <!-- top arro button or SignUp and login  -->
+            <div class="header bg-gray2 flex j-space-between a-center">
+                <img width="30px" class="invert hamburgericon" src="image/hamburger-menu-icon.svg" alt="">
+                <!-- arro button  -->
+                <div class="navbar flex">
+                    <div class="arbtn flex jcenter a-center">
+                        <button class="larro arro"></button>
+                    </div>
+                    <div class="arbtn flex jcenter a-center">
+                        <button class="rarro arro"></button>
+                    </div>
+                </div>
+                <!-- login and SignUp button -->
+                <div class="button flex">
+                    <div class="singupbtn">SignUp</div>
+                    <div class="loginbtn">Log in</div>
+                </div>
+            </div>
+            <!-- spotify playlist  -->
+            <div class="spotifyPlaylist">
+                <div class="head flex j-space-between a-center m-1">
+                    <h1>My Playlist</h1>
+                    <h3>Show all</h3>
+                </div>
+                <!-- cardContainer -->
+                <div class="cardContainer">
+                    <!-- <div data-folder="tophindi" class="card">
+                        <div class="imglogo">
+                            <img src="https://a10.gaanacdn.com/gn_pl_img/playlists/P7m3GNKqxo/7m3GQwOybq/size_l_1707732163.webp"
+                                alt="" />
+                            <div class="logo flex jcenter a-center">
+                                <img src="play.svg" alt="" />
+                            </div>
+                        </div>
+                        <h1>Hindi Songs</h1>
+                        <p>Top 50 Hindi Songs.</p>
+                    </div>
+                    <div data-folder="toppunjabi" class="card">
+                        <div class="imglogo">
+                            <img src="https://a10.gaanacdn.com/gn_pl_img/playlists/w4MKPgOboj/4MKP2xArWo/size_l_1708085315.webp"
+                                alt="" />
+                            <div class="logo flex jcenter a-center">
+                                <img src="play.svg" alt="" />
+                            </div>
+                        </div>
+                        <h1>Punjabi Songs</h1>
+                        <p>Top 50 Punjabi Songs.</p>
+                    </div> -->
+                    <!-- <div class="card">
+                        <div class="imglogo">
+                            <img src="https://i.scdn.co/image/ab67706f0000000254473de875fea0fd19d39037" alt="" />
+                            <div class="logo flex jcenter a-center">
+                                <img src="play.svg" alt="" />
+                            </div>
+                        </div>
+                        <h1>lofi beats</h1>
+                        <p>chill beats, lofi vibes, new tracks every week...</p>
+                    </div>
+                    <div class="card">
+                        <div class="imglogo">
+                            <img src="https://i.scdn.co/image/ab67706f000000026e515187c071e45918e9f0de" alt="" />
+                            <div class="logo flex jcenter a-center">
+                                <img src="play.svg" alt="" />
+                            </div>
+                        </div>
+                        <h1>Dinner Jazz</h1>
+                        <p>The perfect soundtrack to those long nights over dinner</p>
+                    </div>
+                    <div class="card">
+                        <div class="imglogo">
+                            <img src="https://i.scdn.co/image/ab67706f00000002a98e80d2fc9b1cf3b80c4481" alt="" />
+                            <div class="logo flex jcenter a-center">
+                                <img src="play.svg" alt="" />
+                            </div>
+                        </div>
+                        <h1>Dinner with Friends</h1>
+                        <p>
+                            The gentle sound of some of the greatest voices and
+                            instrumentalists in Jazz. Your Jazz dinner soundtrack
+                        </p>
+                    </div>
+                    <div class="card">
+                        <div class="imglogo">
+                            <img src="https://i.scdn.co/image/ab67706f0000000287b494983f83013197bdb4eb" alt="" />
+                            <div class="logo flex jcenter a-center">
+                                <img src="play.svg" alt="" />
+                            </div>
+                        </div>
+                        <h1>Dinner & Chill</h1>
+                        <p>Gentle Indie songs for a relaxed dinner.</p>
+                    </div>
+                    <div class="card">
+                        <div class="imglogo">
+                            <img src="https://i.scdn.co/image/ab67706f000000024b04e77913de1fc2a4b819df" alt="" />
+                            <div class="logo flex jcenter a-center">
+                                <img src="play.svg" alt="" />
+                            </div>
+                        </div>
+                        <h1>Beer & Wings</h1>
+                        <p>Cold beer. Hot wings. Great rock.</p>
+                    </div>
+                    <div class="card">
+                        <div class="imglogo">
+                            <img src="https://i.scdn.co/image/ab67706f000000027cd703bbfec2f1e86c879bec" alt="" />
+                            <div class="logo flex jcenter a-center">
+                                <img src="play.svg" alt="" />
+                            </div>
+                        </div>
+                        <h1>Dinner Lounge</h1>
+                        <p>Soft electronic music for your dinner.</p>
+                    </div> -->
+                </div>
+            </div>
+            <div class="playbar invert">
+                <div class="linebar">
+                    <div class="circle">
+
+                    </div>
+                </div>
+
+                <div class="songinfo"></div>
+                <div class="songicon">
+                    <img id="pre" src="image/presong.svg" alt="" />
+                    <img id="play" src="image/play-round-icon.svg" alt="" />
+                    <img id="next" src="image/nextsong.svg" alt="" />
+                    <div class="vimg">
+                        <img class="mute" height="20px" src="image/voice.svg" alt="">
+                        <input type="range" class="vinput" id="volinput">
+                    </div>
+                </div>
+                <div class="songtime"></div>
+
+
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/script.js"></script>
+
+</html>

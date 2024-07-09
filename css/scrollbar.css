@@ -1,0 +1,27 @@
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: black;
+  }
+  
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: black transparent;
+  }
+  body {
+    scrollbar-base-color: black;
+    scrollbar-base-color: black;
+    scrollbar-3dlight-color: black;
+    scrollbar-highlight-color: black;
+    scrollbar-track-color: transparent;
+    scrollbar-arrow-color: black;
+    scrollbar-shadow-color: black;
+    scrollbar-dark-shadow-color: black;
+  }
+  
